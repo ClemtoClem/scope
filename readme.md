@@ -1,6 +1,9 @@
 
-### Example web page
-Example of minimal application to create an oscilloscope and analog generator with a web interface for a red pitaya
+### Development web page
+Development of minimal application to create an oscilloscope and analog generator with a web interface for a red pitaya
+
+![plot](./img/redpitaya_image.webp)
+![plot](./img/capture.png)
 
 #### Structure
 
