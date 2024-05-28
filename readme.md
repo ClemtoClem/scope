@@ -1,6 +1,6 @@
 
 ### Example web page
-An example of a minimal application for creating a module for a web page in redpitaya
+Example of minimal application to create an oscilloscope and analog generator with a web interface for a red pitaya
 
 #### Structure
 
@@ -13,24 +13,11 @@ An example of a minimal application for creating a module for a web page in redp
 
 #### Build
 
-To build a project, execute the command:
+To build a project, execute the command in red pitaya OS 2.0:
 
 ```
-make INSTALL_DIR=/opt/redpitaya
+bash b.sh
 ```
-
-In the INSTALL_DIR parameter you need to specify the path to the header files redpitaya api. The result should be the file controllerhf.so.
-
-#### Deploy
-
-In order for the module to appear on the redpitaya web page. You need to create a directory аnd copy the data from the project there.
-
-```
-mkdir /opt/redpitaya/www/apps/example
-cp -R * /opt/redpitaya/www/apps/example
-```
-
-
 
 
 
